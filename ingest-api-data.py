@@ -26,7 +26,7 @@ today_string = current_time_ist.strftime('%Y_%m_%d')
 # Following credential has to come using secret whie running in automated way
 def snowpark_basic_auth() -> Session:
     connection_parameters = {
-       "ACCOUNT":"mhczmkp-lh64182",
+       "ACCOUNT":"MHCZMKP-LH64182.snowflakecomputing.com",
        "region":"  AWS_AP_SOUTHEAST_1",
         "USER":"sandeepreddy",
         "PASSWORD":"Sandeepreddy@143",
