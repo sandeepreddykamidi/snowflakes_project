@@ -109,5 +109,5 @@ def get_air_quality_data(api_key, limit):
 api_key = '579b464db66ec23bdd00000117328737eeef4c6f445882cca45b55cb'
 
 
-limit_value = 4000
+limit_value = 100
 air_quality_data = get_air_quality_data(api_key, limit_value)
