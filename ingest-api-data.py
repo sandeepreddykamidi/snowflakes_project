@@ -106,7 +106,7 @@ def get_air_quality_data(api_key, limit):
     return None
 
 # Replace 'YOUR_API_KEY' with your actual API key
-api_key = '579b464db66ec23bdd000001fe740c8ecceb425a51b359c2e20e045b'
+api_key = '579b464db66ec23bdd00000117328737eeef4c6f445882cca45b55cb'
 
 
 limit_value = 4000
