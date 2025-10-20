@@ -39,7 +39,7 @@ def snowpark_basic_auth() -> Session:
 
 
 def get_air_quality_data(api_key, limit):
-    api_url = '579b464db66ec23bdd0000011f4a11600c574d1f758a079b684b7ebd'
+    api_url = 'https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69'
     
     # Parameters for the API request
     params = {
@@ -106,7 +106,7 @@ def get_air_quality_data(api_key, limit):
     return None
 
 # Replace 'YOUR_API_KEY' with your actual API key
-api_key = '<add-app-api-key>'
+api_key = '579b464db66ec23bdd0000011f4a11600c574d1f758a079b684b7ebd'
 
 
 limit_value = 4000
